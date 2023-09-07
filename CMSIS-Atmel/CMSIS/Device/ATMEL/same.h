@@ -64,6 +64,16 @@
 #include "same51/include/same51n19a.h"
 #elif defined(__SAME51N20A__)
 #include "same51/include/same51n20a.h"
+
+/* SAME54 series */
+#elif defined(__SAME54P19A__)
+#include "same54/include/same54p19a.h"
+#elif defined(__SAME54P20A__)
+#include "same54/include/same54p20a.h"
+#elif defined(__SAME54N19A__)
+#include "same54/include/same54n19a.h"
+#elif defined(__SAME54N20A__)
+#include "same54/include/same54n20a.h"
 #endif
 
 #endif /* _SAME_INCLUDED_ */
